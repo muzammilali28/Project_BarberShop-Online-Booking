@@ -10,6 +10,12 @@
 5. Create a New Database with Name ***project***.
 
 ## Database Table Creation (bookings) using phpMyAdmin
-1. Create the table with Name **bookings**.
-2. Make **ID** with datatype **INT** and click the box "AUTO INCREMENT" -> this will make the ID as Primary Key and auto increment on every entry.
-3. Make **Name_** with datatype **VARCHAR**
+1. Create the table with Name **bookings** in the database **project**
+2. Make **ID** with Type **INT** and ***length/values*** = 11 , then click the box ***A_I*** -> this will make the ID as Primary Key and auto increment on every entry.
+3. Make **Name_** with Type **VARCHAR** and give ***length/values*** = 50
+4. Make **Email** with Type **VARCHAR** and give ***length/values*** = 20 and click on the box ***NULL*** -> it is not compulsory for the user to give email always.
+5. Make **Date_** with Type **CHAR** and give ***length/values*** = 10
+6. Make **Time_** with Type **CHAR** and give ***length/values*** = 4
+7. Make **Service** with Type **VARCHAR** and give ***length/values*** = 20
+
+Finally click on **Save** which is located on the bottom left of page.
