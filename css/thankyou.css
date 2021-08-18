@@ -1,0 +1,56 @@
+body
+{
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(255,255,255,0.1)),url('../img/thank_you.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 100vh;
+}
+.header
+{
+    text-align: right;
+    margin: 50px;
+}
+.header img
+{
+    float: left;
+    height: 50px;
+}
+.greeting
+{
+    text-align: center;
+    position: relative;
+    top: 15%;
+    color: white;
+}
+#regards
+{
+    position: relative;
+    bottom: 40px;
+}
+h1
+{
+    font-size: 40px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+h2
+{
+    font-size: 90px;
+    color: gold;
+    font-family: 'Lato', sans-serif;
+}
+h3
+{
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+.header a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 40px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}

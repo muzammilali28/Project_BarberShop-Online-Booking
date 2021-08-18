@@ -1,0 +1,108 @@
+body
+{
+    background: linear-gradient(rgba(0,0,0,1),rgba(255,255,255,0)),url("../img/services-offer-back.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 100vh;
+}
+.header
+{
+    text-align: right;
+    margin: 50px;
+}
+.header img
+{
+    float: left;
+    height: 50px;
+}
+.header a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 40px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+h1
+{
+    color: white;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+.service-offering
+{
+    width: 74%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.offers
+{
+    flex-basis: 40%;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    color: white;
+    position: relative;
+}
+.offers img
+{
+    width: 70%;
+    border-radius: 10px;
+}
+.overlay
+{
+    width: 70%;
+    height: 98%;
+    position : absolute;
+    top: 0;
+    left: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(255,255,255,0.3));
+    opacity: 0;
+    transition: 1s;
+}
+.offers:hover .overlay
+{
+    opacity: 1;
+    cursor: pointer;
+}
+.serv-des
+{
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+h2
+{
+    font-family: 'Pacifico', cursive;
+}
+hr
+{
+    margin: auto;
+    border: none;
+    width: 60%;
+    border-top-style: solid;
+    border-color: white;
+    border-width: 0.2px;
+}
+.serv-des p
+{
+    font-size: 14px;
+    font-family: 'Viaoda Libre', cursive;
+}
+.offers:hover .serv-des
+{
+    bottom: 20%;
+    opacity: 1;
+    cursor: pointer;
+}
