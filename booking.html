@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Barber Shop | Booking Form</title>
+    <link rel="stylesheet" href="./css/booking.css">
+    <link rel="icon" href="./img/WebIcon.PNG">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Indie+Flower&family=Pacifico&family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <img src="./img/logo.png" alt="logo">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+    </div>
+
+    <div class="contact-info">
+        <div class="text-info">
+            <h1>OPEN TIMING</h1>
+            <h3>Monday - Friday</h3>
+            <p>9am - 10pm</p>
+            <h3><u>Friday</u></h3>
+            <p>Prayer Break : 1pm - 2pm</p>
+            <hr>
+            <h3>Address</h3>
+            <p>11414 W Sample Rd, Coral Springs, FL 33065,<br>United States</p>
+            <br>
+            <h3 class="contact">Contact Us : </h3>
+            <p class="contact-num">(+1) 954-906-8585</p>
+        </div>
+        <div class="booking">
+            <div class="center">
+            <h1>BOOKING FORM</h1>
+            <form name="myform" action="bookingValidate.php" method="POST">
+                <div>
+                    <p>Name<span>*</span></p>
+                    <input type="text" name="NAME" id="write" required placeholder="e.g Muzammil Ali">
+                </div>
+                <div>
+                    <p>Email </p>
+                    <input type="text" name="EMAIL" id="write-email" placeholder="e.g muzammilali28@gmail.com">
+                </div>
+                <div>
+                    <p>Date<span>*</span></p>
+                    <input type="date" name="DATE" id="write" required>
+                </div>
+                <div>
+                    <p>Time<span>*</span></p>
+                    <input type="time" name="TIME" id="write" min="09:00" max="22:00" required>
+                </div>
+                <div>
+                    <p>Service<span>*</span></p>
+                    <!-- <input type="text" name="SERVICE" id="write-service" required placeholder="e.g Hair Styling"> -->
+                    <select id="write-service" name="SERVICE">
+                        <option value="Hair Triming">Hair Triming</option>
+                        <option value="Hair Cut">Hair Cut</option>
+                        <option value="Hair Style">Hair Styling</option>
+                        <option value="Beard Trim">Beard Triming</option>
+                    </select>
+                </div>
+                <br><br>
+                <input type="submit" name="SUBMIT" value="BOOK NOW" id="btn">
+            </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
