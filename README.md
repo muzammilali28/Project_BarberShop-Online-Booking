@@ -1,6 +1,8 @@
 # Note!
 1. The **.php** files ***should not*** be in any **folder**.
 2. I have used **core PHP** in this project.
+3. Kindly view the project on a 1920 x 1080 / 1080p computer screen (will look good on it)
+4. For Laptop Screens , you might need to make some changes in the project.
 
 # Instructions
 ### Database Connection
